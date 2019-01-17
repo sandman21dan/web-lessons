@@ -5,6 +5,17 @@
 body {
   margin: 0;
   padding: 0;
+  /* For display purposes only gh-pages only */
+  max-width: 414px;
+  margin: 0 auto;
+}
+
+@media (min-width: 414px) {
+  body {
+    margin-top: 16px;
+    border: 2px solid lightgray;
+    border-radius: 6px;
+  }
 }
 
 .nav {
