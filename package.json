@@ -1,0 +1,15 @@
+{
+  "name": "web-lessons",
+  "version": "1.0.0",
+  "description": "A few simple lessons in web development",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Perez",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
